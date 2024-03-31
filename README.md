@@ -8,15 +8,24 @@ The Practo website was scraped using Python's BeautifulSoup library to gather do
 
 ## Dataset Description
 The dataset comprises the following fields:
-name: Name of the doctor
-speciality_of_doctor: Specialty of the doctor (e.g., dentist, gynecologist, pediatrician)
-degree_type: Degree type (e.g., MBBS, MS, MD, BDS)
-year_of_experience: Total years of experience
-Location: Location of the clinic
-city: City of the clinic
-dp_score: Doctor-patient experience score
-npv: Number of people votes
-consult_fee: Consultation fee at the clinic
+
+**1. Name**: Name of the doctor
+
+**2. Speciality_of_doctor** : Specialty of the doctor (e.g., dentist, gynecologist, pediatrician)
+
+**3. Degree_type** : Degree type (e.g., MBBS, MS, MD, BDS)
+
+**4. year_of_experience** : Total years of experience
+
+**5. Location** : Location of the clinic
+
+**6. city** : City of the clinic
+
+**7. dp_score** : Doctor-patient experience score
+
+**8. npv** : Number of people votes
+
+**9. consult_fee** : Consultation fee at the clinic
 
 ## Machine Learning Model
 A machine learning model has been developed utilizing the collected data to predict the consultation fee for doctors. The model incorporates various features such as specialty, degree type, years of experience, location, city, doctor-patient score, and number of people votes for accurate predictions.
